@@ -1,0 +1,11 @@
+.main-container {
+    display: flex;
+    grid-template-columns: 3fr 1fr;
+    justify-content: space-between;
+}
+
+.main-container {
+    background-image: url(assets/images/battle-modal.jpg);
+    background-size: 100vw;
+    background-repeat: repeat-x;
+}

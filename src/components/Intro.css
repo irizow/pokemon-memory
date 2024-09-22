@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "Pokemon";
+    src: url(../assets/fonts/pokemon-regular.ttf);
+}
+
+body, html {
+    font-family: "Pokemon", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    line-height: 1.3;
+} 
+section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.select-container img {
+    width: 7vw;
+    border: 4px solid black;
+    border-radius: 15px;
+    position: absolute;
+    top: -4vw;
+}
+.select-container {
+    position: relative;
+    background-color: rgba(216, 215, 215, 0.732);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    width: 40vw;
+    height: 40vh;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+.button-gender-container {
+    display: flex;
+    gap: 1vw;
+}
+
+.button-gender-container button {
+    font-size: 1.2rem;
+    padding: 1vw 2vw;
+    background-color: rgb(255, 213, 220);
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 1px 4px 1px grey;
+}
+
+.button-gender-container button:hover {
+    box-shadow: none;
+}
+
+.greeting {
+    align-self: flex-start;
+    font-size: 1.5rem;
+   text-align: center;
+}
+
+.sound-button {
+    width: 10vh;
+    height: 10vh;
+    background-color: white;
+}
+
+.w-6 .h-6 {
+    width: 5vw;
+}
