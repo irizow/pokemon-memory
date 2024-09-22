@@ -9,3 +9,31 @@
     background-size: 100vw;
     background-repeat: repeat-x;
 }
+
+.mobile-modal {
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+.mobile-modal {
+    background-color: black;
+    display: grid;
+    place-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    color: white;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.mobile-modal>div {
+    padding: 2rem;
+    background-color: rgb(66, 0, 128);
+    border-radius: 30px;
+}
+    
+}

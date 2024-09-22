@@ -14,12 +14,20 @@ function App() {
 
   return (
     <>
+    <div className='mobile-modal'>
+      <div>
+      This site is not adapted to mobile and tablet yet.<br></br><br></br>
+      You should go turn on your laptop :D
+      </div>
+      </div>
     {!isInitiated && <Intro isInitiated={isInitiated} setIsInitiated={setIsInitiated} gender={gender} setGender={setGender} player={player} setPlayer={setPlayer} /> }
     {isInitiated && 
+    
     <div className="main-container">
     <MemoryGame level={level} setLevel={setLevel} moneyMade={moneyMade} setMoneyMade={setMoneyMade} score={score} setScore={setScore} />
     <PlayerConsole level={level} moneyMade={moneyMade} score={score} gender={gender} player={player} /> 
-    </div>}
+    </div>
+    }
     
     </>
   )
